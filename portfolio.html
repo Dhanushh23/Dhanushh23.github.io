@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dasari Dhanush · AI &amp; ML Portfolio</title>
+<style>
+:root{--bg:#0b1020;--surface:#141b33;--text:#e8ecf8;--muted:#9aa5c7;--accent:#5eead4;--accent2:#818cf8;--border:#252e50;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f8fc;--surface:#fff;--text:#14182b;--muted:#566083;--accent:#0f766e;--accent2:#4f46e5;--border:#dde3f0}}
+:root[data-theme="light"]{--bg:#f6f8fc;--surface:#fff;--text:#14182b;--muted:#566083;--accent:#0f766e;--accent2:#4f46e5;--border:#dde3f0}
+:root[data-theme="dark"]{--bg:#0b1020;--surface:#141b33;--text:#e8ecf8;--muted:#9aa5c7;--accent:#5eead4;--accent2:#818cf8;--border:#252e50}
+html{scroll-behavior:smooth;scroll-padding-top:70px}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:960px;margin:0 auto;padding:0 22px}
+nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;height:58px}
+.logo{font-weight:700;letter-spacing:.3px}
+.logo span{color:var(--accent)}
+.links{display:flex;gap:18px;font-size:14px;color:var(--muted);overflow-x:auto}
+.links a:hover{color:var(--accent)}
+header.hero{padding:90px 0 70px}
+.tag{display:inline-block;font-size:13px;color:var(--accent);border:1px solid var(--border);padding:4px 12px;border-radius:99px;background:var(--surface)}
+h1{font-size:clamp(2.3rem,7vw,3.9rem);line-height:1.1;margin:18px 0 14px;letter-spacing:-1px}
+h1 em{font-style:normal;background:linear-gradient(90deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{max-width:600px;color:var(--muted);font-size:1.1rem}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}
+.btn{padding:11px 22px;border-radius:10px;font-weight:600;border:1px solid var(--border);background:var(--surface)}
+.btn.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#0b1020;border:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-top:46px}
+.stat{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:16px 18px}
+.stat b{display:block;font-size:1.5rem;color:var(--accent)}
+.stat span{font-size:13px;color:var(--muted)}
+section{padding:56px 0}
+h2{font-size:1.7rem;margin:0 0 26px;letter-spacing:-.4px}
+h2::before{content:"";display:inline-block;width:26px;height:4px;border-radius:4px;background:linear-gradient(90deg,var(--accent),var(--accent2));margin-right:12px;vertical-align:middle}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:24px;transition:transform .2s,border-color .2s}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.card h3{margin:0 0 4px;font-size:1.15rem}
+.meta{font-size:13px;color:var(--muted);margin-bottom:12px}
+ul{margin:0;padding-left:20px;color:var(--muted)}
+li{margin-bottom:6px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{font-size:12.5px;padding:3px 11px;border-radius:99px;border:1px solid var(--border);color:var(--accent)}
+.skill-group{margin-bottom:6px}
+.skill-group h3{font-size:.95rem;color:var(--muted);font-weight:600;margin:18px 0 0;text-transform:uppercase;letter-spacing:1px}
+.timeline{border-left:2px solid var(--border);padding-left:22px}
+.t-item{position:relative;margin-bottom:26px}
+.t-item::before{content:"";position:absolute;left:-29px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--accent)}
+.t-item h3{margin:0;font-size:1.05rem}
+.t-item p{margin:2px 0 0;color:var(--muted);font-size:.95rem}
+.contact{text-align:center}
+.contact p{color:var(--muted);max-width:520px;margin:0 auto 24px}
+footer{text-align:center;padding:30px 0 40px;color:var(--muted);font-size:13px;border-top:1px solid var(--border)}
+</style>
+</head>
+<body>
+<nav><div class="wrap"><a class="logo" href="#top">dhanush<span>.ai</span></a>
+<div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></div></nav>
+
+<main id="top">
+<header class="hero"><div class="wrap">
+<span class="tag">Open to entry-level roles</span>
+<h1>Hi, I’m <em>Dasari Dhanush</em></h1>
+<p>CSE (AI &amp; ML) student building data-driven AI solutions with Python, machine learning and deep learning.</p>
+<div class="btns"><a class="btn primary" href="#projects">View my projects</a><a class="btn" href="#contact">Get in touch</a></div>
+<div class="stats">
+<div class="stat"><b>2</b><span>ML projects built</span></div>
+<div class="stat"><b>2</b><span>Professional certifications</span></div>
+<div class="stat"><b>2026</b><span>Amazon ML Challenge</span></div>
+</div></div></header>
+
+<section id="about"><div class="wrap">
+<h2>About me</h2>
+<p style="color:var(--muted);max-width:720px">I’m a motivated undergraduate studying AI &amp; ML at Mohan Babu University. I enjoy turning raw data into useful predictions, from preprocessing and exploratory analysis to model training and evaluation. I’m looking for an entry-level role where I can apply these skills, keep learning, and contribute to the team’s growth.</p>
+</div></section>
+
+<section id="experience"><div class="wrap">
+<h2>Experience</h2>
+<div class="timeline"><div class="t-item">
+<h3>Amazon ML Challenge 2026 · Participant</h3>
+<p>Amazon, via Unstop · September 2026</p>
+<ul style="margin-top:10px">
+<li>Took part in a two-stage national competition where engineering students solve a real-world problem using Amazon’s dataset.</li>
+<li>Built and iterated on an ML solution in Python, tracking performance on a live leaderboard with a cap of 17 successful submissions.</li>
+<li>Submitted the code/notebook along with a 1–2 page document explaining the approach.</li>
+</ul></div></div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+<h2>Projects</h2>
+<div class="grid">
+<article class="card"><h3>Student Performance Prediction</h3><div class="meta">Machine learning · Classification</div>
+<ul><li>Predicts student academic performance from academic and demographic features.</li>
+<li>Covered data preprocessing, exploratory data analysis, feature selection and model evaluation with Scikit-learn.</li>
+<li>Compared classification algorithms using accuracy, precision, recall and F1-score.</li></ul>
+<div class="chips"><span class="chip">Python</span><span class="chip">Scikit-learn</span><span class="chip">EDA</span></div></article>
+<article class="card"><h3>AI-Based Crop Recommendation for Farmers</h3><div class="meta">Team “Hell Fire Club” · Random Forest</div>
+<ul><li>Recommends optimal crops from soil (N-P-K) and environmental factors: pH, temperature and rainfall.</li>
+<li>Designed to improve agricultural yield and resource efficiency for non-technical users.</li></ul>
+<div class="chips"><span class="chip">Python</span><span class="chip">Random Forest</span><span class="chip">Teamwork</span></div></article>
+</div></div></section>
+
+<section id="skills"><div class="wrap">
+<h2>Skills</h2>
+<div class="skill-group"><h3>Languages</h3><div class="chips"><span class="chip">Python</span><span class="chip">C</span></div></div>
+<div class="skill-group"><h3>Tools</h3><div class="chips"><span class="chip">MATLAB</span><span class="chip">Google Colab</span><span class="chip">Kaggle Notebook</span></div></div>
+<div class="skill-group"><h3>Core concepts</h3><div class="chips"><span class="chip">Machine Learning</span><span class="chip">Deep Learning</span><span class="chip">Data Preprocessing</span><span class="chip">Classification</span><span class="chip">Clustering</span></div></div>
+</div></section>
+
+<section id="education"><div class="wrap">
+<h2>Education &amp; Certifications</h2>
+<div class="grid">
+<div class="card"><h3>Education</h3>
+<div class="timeline" style="margin-top:16px">
+<div class="t-item"><h3>B.Tech, CSE (AI &amp; ML)</h3><p>Mohan Babu University AP · 2025 – Present · CGPA 6.80 / 10</p></div>
+<div class="t-item"><h3>Class XII</h3><p>Sree Vidyaniketan International School · 2024 · 71%</p></div>
+<div class="t-item" style="margin-bottom:0"><h3>Class X</h3><p>Sree Vidyaniketan International School · 2022 · 406 / 500</p></div>
+</div></div>
+<div class="card"><h3>Certifications</h3>
+<div class="timeline" style="margin-top:16px">
+<div class="t-item"><h3>Probability &amp; Statistics for Machine Learning and Data Science</h3><p>DeepLearning.AI · Coursera</p></div>
+<div class="t-item" style="margin-bottom:0"><h3>Supervised Machine Learning: Regression</h3><p>IBM · Coursera</p></div>
+</div></div>
+</div></div></section>
+
+<section id="contact"><div class="wrap contact">
+<h2 style="display:inline-block">Let’s connect</h2>
+<p>I’m open to entry-level opportunities in AI and machine learning. Reach out and let’s talk.</p>
+<div class="btns" style="justify-content:center">
+<a class="btn primary" href="mailto:dasaridhanush105@gmail.com">dasaridhanush105@gmail.com</a>
+<a class="btn" href="tel:+919652990644">+91 96529 90644</a>
+</div></div></section>
+</main>
+<footer>© 2026 Dasari Dhanush</footer>
+</body>
+</html>
